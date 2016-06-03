@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Denza.Blog.Data", "Denza.Blog.Data\Denza.Blog.Data.csproj", "{A8D5CCD9-F7E0-4002-A6B2-C9A5D79912B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Denza.Blog.Domain", "Denza.Blog.Domain\Denza.Blog.Domain.csproj", "{F6213152-8803-46A1-8759-25D58F425B98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Denza.Blog.Rest", "Denza.Blog.Rest\Denza.Blog.Rest.csproj", "{85E2787F-305A-4B2C-A900-330362CE6F11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Denza.Blog.Api.Public", "Denza.Blog.Api.Public\Denza.Blog.Api.Public.csproj", "{6035712F-55DB-4835-818E-9FA7D95EC37A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Denza.Blog.Api.Common", "Denza.Blog.Api.Common\Denza.Blog.Api.Common.csproj", "{F674D0B3-CDE0-446D-8E51-9F50B7845167}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Denza.Blog.DatabaseDataProvider", "Denza.Blog.DatabaseDataProvider\Denza.Blog.DatabaseDataProvider.csproj", "{924EE781-723C-4436-AF26-8D00D96F0349}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Denza.Blog.CacheDataProvider", "Denza.Blog.CacheDataProvider\Denza.Blog.CacheDataProvider.csproj", "{D8F73FC6-BEE0-44CD-8A8F-7AA3F8D541F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8D5CCD9-F7E0-4002-A6B2-C9A5D79912B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8D5CCD9-F7E0-4002-A6B2-C9A5D79912B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8D5CCD9-F7E0-4002-A6B2-C9A5D79912B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8D5CCD9-F7E0-4002-A6B2-C9A5D79912B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6213152-8803-46A1-8759-25D58F425B98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6213152-8803-46A1-8759-25D58F425B98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6213152-8803-46A1-8759-25D58F425B98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6213152-8803-46A1-8759-25D58F425B98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85E2787F-305A-4B2C-A900-330362CE6F11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85E2787F-305A-4B2C-A900-330362CE6F11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85E2787F-305A-4B2C-A900-330362CE6F11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85E2787F-305A-4B2C-A900-330362CE6F11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6035712F-55DB-4835-818E-9FA7D95EC37A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6035712F-55DB-4835-818E-9FA7D95EC37A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6035712F-55DB-4835-818E-9FA7D95EC37A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6035712F-55DB-4835-818E-9FA7D95EC37A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F674D0B3-CDE0-446D-8E51-9F50B7845167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F674D0B3-CDE0-446D-8E51-9F50B7845167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F674D0B3-CDE0-446D-8E51-9F50B7845167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F674D0B3-CDE0-446D-8E51-9F50B7845167}.Release|Any CPU.Build.0 = Release|Any CPU
+		{924EE781-723C-4436-AF26-8D00D96F0349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{924EE781-723C-4436-AF26-8D00D96F0349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{924EE781-723C-4436-AF26-8D00D96F0349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{924EE781-723C-4436-AF26-8D00D96F0349}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8F73FC6-BEE0-44CD-8A8F-7AA3F8D541F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8F73FC6-BEE0-44CD-8A8F-7AA3F8D541F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8F73FC6-BEE0-44CD-8A8F-7AA3F8D541F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8F73FC6-BEE0-44CD-8A8F-7AA3F8D541F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35;packages\Unity.Interception.2.1.505.2\lib\NET35;packages\EnterpriseLibrary.Common.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.Caching.5.0.505.0\lib\NET35
+	EndGlobalSection
+EndGlobal
